@@ -1,0 +1,146 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-family: "Open Sans"
+}
+
+body{
+    width: 92%;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    margin: auto;
+    background: linear-gradient(rgb(24, 26, 38) 0%, rgb(53, 52, 131) 120%);
+}
+
+header{
+    background-color: rgb(35, 38, 45);
+    padding: 30px;
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    grid-area: img;
+}
+
+header h1{
+    grid-area: h1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+    color: #698f69;
+}
+
+nav{
+    grid-area: nav;
+    background-color: rgb(35, 38, 45);
+
+}
+
+main{
+    grid-area: main;
+    background-color: rgb(35, 38, 45);
+    padding: 50px;
+}
+
+
+main h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Inconsolata";
+    color: #698f69;
+    border: 1px solid;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#formacion{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 2vw;
+}
+
+#formacion img{
+    width: 12vw;
+    transition: width 0.5s ease
+}
+
+footer{
+    grid-area: footer;
+    background-color: rgb(35, 38, 45);
+    padding: 30px;
+}
+
+form textarea{
+    resize: none;
+    overflow: hidden;
+    width: 150px;
+    color: black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form div, form input, form textarea{
+    width: 70% !important;
+}
+
+form textarea{
+    height: 200px;
+}
+
+#java{
+    border-radius: 20px;
+
+}
+
+#mensaje{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#formacion img:hover{
+    width: 13vw;
+}
+
+footer{
+    text-align: center;
+}
